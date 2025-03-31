@@ -121,7 +121,7 @@ const Hero = () => {
             />
             <div className="h-48 w-48 md:h-96 md:w-96 rounded-full border border-red-700 mt-[-190px] md:mt-[-390px] shadow-lg shadow-red-700 hover:scale-125 duration-500"></div>
             <div className="h-10 w-10 md:h-10 md:w-96 rounded-full border-red-750 bg-red-700 mt-[-70px] md:mt-[-390px] shadow-lg shadow-red-800 "></div>
-          </div>
+          </div> 
         </div>
       </div>
       <hr className="text-red-800 h-2 shadow-lg shadow-red-700" />

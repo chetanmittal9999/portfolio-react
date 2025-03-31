@@ -10,7 +10,7 @@ const Project = () => {
         about:'#'
     },
     {
-        img: "/src/assets/blood.png",
+        img: "/public/blood.png",
         title: 'Blood Donate',
         description: 'This project aims to raise awareness about blood donation and address the critical issue of timely information dissemination. Through our initiative, we provide a reliable platform that ensures users receive timely updates. We empower individuals to make a meaningful impact in their communities and save lives.',
         link: 'https://empoweringblooddonation.onrender.com/',
