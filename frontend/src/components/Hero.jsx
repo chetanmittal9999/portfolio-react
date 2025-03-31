@@ -116,7 +116,7 @@ const Hero = () => {
           <div className="md:w-1/2  md:ml-12 lg:ml-40 mt-8 px-16 md:px-0 order-1 ">
             <img
               className="md:w-[400px] md:h-[400px] rounded-full border-red-700 border shadow-lg shadow-red-900 hover:scale-85 duration-500"
-              src="/public/cm.jpg"
+              src="/cm.jpg"
               alt=""
             />
             <div className="h-48 w-48 md:h-96 md:w-96 rounded-full border border-red-700 mt-[-190px] md:mt-[-390px] shadow-lg shadow-red-700 hover:scale-125 duration-500"></div>
