@@ -3,21 +3,21 @@ import React from 'react';
 const Project = () => {
   const projects = [
     {
-        img: "/ssentinal.png",
+        img: "/ss.PNG",
         title: 'Sentinel Sphere',
         description: 'At Sentinel Sphere, our mission is to empower communities to support one another during emergencies. Our platform connects individuals , enabling them to reach out for help and offer support when it matters most. We aim to create a safer environment where everyone can contribute to other’s .',
         link: 'https://sentinel-sphere.onrender.com/',
         about:'#'
     },
     {
-        img: "/blood.png",
+        img: "/blood.PNG",
         title: 'Blood Donate',
         description: 'This project aims to raise awareness about blood donation and address the critical issue of timely information dissemination. Through our initiative, we provide a reliable platform that ensures users receive timely updates. We empower individuals to make a meaningful impact in their communities and save lives.',
         link: 'https://empoweringblooddonation.onrender.com/',
         about:'#'
     },
     {
-      img:"/portfolio.png",
+      img:"/portfolio.PNG",
       title: 'Chetan Portfolio',
       description: 'Chetan Portfolio is a personal showcase of my skills and designed to highlight my journey, expertise, and passion for creating user-friendly web solutions. It serves as a platform to connect with potential collaborators and employers, demonstrating my commitment to continuous learning and growth in the tech industry.',
       link: '#',
