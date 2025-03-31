@@ -11,7 +11,7 @@ const Navabar = () => {
           <div className="flex gap-2 items-center">
             <img
               className="h-12 w-12 rounded-full"
-              src="/src/assets/cm.jpg"
+              src="/cm.jpg"
               alt=""
             />
             <div className="">
