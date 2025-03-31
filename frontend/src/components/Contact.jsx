@@ -91,7 +91,7 @@ const Contact = () => {
         <div className="mt-10 md:mt-8 flex gap-10 justify-evenly items-center flex-col md:flex-row">
           <img
             className="md:w-1/2 hover:scale-90 duration-300"
-            src="/public/assets/contact.png"
+            src="/contact.png"
             alt="Contact Us"
           />
           <form
