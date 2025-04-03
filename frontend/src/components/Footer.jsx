@@ -15,7 +15,7 @@ const Footer = () => {
     const body = 'Hello, this is a message body.'; // Customize the body if needed
     window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   };
-
+ 
   return (
     <>
       <div className='bg-[#1d3557] p-1'>
