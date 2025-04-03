@@ -105,9 +105,9 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-5 border-2 p-2 text-white text-center rounded-full border-[#1d3557] shadow-lg hover:scale-105 duration-500">
+            <div className="mt-5 border-2 p-2 text-white text-center rounded-full border-black shadow-lg hover:scale-105 duration-500">
               <a href="/resume.pdf" download>
-                <button className="font-semibold text-[#1d3557] text-xl cursor-pointer">
+                <button className="font-semibold text-black text-xl cursor-pointer">
                   Download My Resume <i className="fa-solid fa-download"></i>
                 </button>
               </a>
@@ -119,14 +119,12 @@ const Hero = () => {
               src="/cm.jpg"
               alt=""
             />
-            <div className="h-48 w-48 md:h-96 md:w-96 rounded-full border border-[#1d3557] mt-[-190px] md:mt-[-390px] shadow-lg shadow-[#1d3557]  hover:scale-125 duration-500"></div>
-            <div className="h-10 w-10 md:h-10 md:w-96 rounded-full  mt-[-70px] md:mt-[-390px] shadow-lg shadow-[#1d3557] "></div>
+            <div className="h-48 w-48 md:h-96 md:w-96 rounded-full border border-black mt-[-190px] md:mt-[-390px] shadow-lg shadow-black  hover:scale-125 duration-500"></div>
+            <div className="h-10 w-10 md:h-10 md:w-96 rounded-full  mt-[-70px] md:mt-[-390px] shadow-lg shadow-black "></div>
           </div> 
         </div>
       </div>
-      <hr className="text-[#457b9d] h-2 shadow-lg shadow-[#457b9d]" />
-      <hr className="text-[#457b9d] h-2 shadow-lg shadow-[#457b9d]" />
-      <hr className="text-[#457b9d] h-2 shadow-lg shadow-[#457b9d]" />
+      <div className="text-[#457b9d] h-2 shadow-lg shadow-black" />
       <div id="about"></div>
     </>
   );

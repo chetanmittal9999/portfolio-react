@@ -97,11 +97,11 @@ const Contact = () => {
           <form 
             ref={form}
             onSubmit={handleSubmit}
-            className="flex flex-col gap-6 md:w-1/2 bg-white p-6 rounded-lg shadow-lg  border-2 border-[#1d3557]"
+            className="flex flex-col gap-6 md:w-1/2 bg-white p-6 rounded-lg shadow-lg shadow-black"
           >
             <h2 className="text-4xl font-semibold text-center text-gray-800">
               <span className="text-red-700">Let’s</span> Connect!{" "}
-              <span className="text-blue-700"><i className="fa-solid fa-handshake"></i></span>
+              <span className="text-blue-900"><i className="fa-solid fa-handshake"></i></span>
             </h2>
             <input
               type="text"
@@ -141,7 +141,7 @@ const Contact = () => {
             {errors.message && <p className="text-red-500">{errors.message}</p>}
             <button
               type="submit"
-              className="bg-[#1d3557] text-white py-2 rounded-lg hover:bg-[#1d3557] transition duration-300"
+              className="bg-black text-white py-2 rounded-lg hover:bg-[#1d3557] transition duration-300"
             >
               Send Message
             </button>

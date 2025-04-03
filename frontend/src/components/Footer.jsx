@@ -18,7 +18,7 @@ const Footer = () => {
  
   return ( 
     <>
-      <div className='bg-[#1d3557] p-1'>
+      <div className='bg-black p-1'>
         <p className='text-white text-center mt-2 font-mono'>
           © 2025 Chetan Mittal. All rights reserved | Designed by Chetan Mittal 
         </p>
