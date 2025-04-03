@@ -26,18 +26,18 @@ const Footer = () => {
 
       {/* Scroll to Top Button */}
       <div
-        className="fixed right-2 bottom-16 h-12 w-12 rounded-full bg-[#1d3557] flex items-center justify-center cursor-pointer shadow-lg hover:bg-red-600 transition hover:scale-105 duration-500"
+        className="fixed right-2 bottom-16 h-12 w-12 rounded-full bg-black flex items-center justify-center cursor-pointer shadow-lg hover:bg-red-600 transition hover:scale-105 duration-500"
         onClick={scrollToTop}
         aria-label="Scroll to top"
       >
         <FaArrowAltCircleUp className='text-3xl text-white hover:scale-125 duration-500' />
       </div>
       <div
-      className="fixed right-2 bottom-32 h-12 w-12 rounded-full bg-white-600 flex items-center justify-center cursor-pointer border-2 border-red-700 hover:border-[#1d3557] shadow-lg transition hover:scale-105 duration-500 "
+      className="fixed right-2 bottom-32 h-12 w-12 rounded-full bg-white-600 flex items-center justify-center cursor-pointer border-2 border-black hover:border-[#1d3557] shadow-lg transition hover:scale-105 duration-500 "
       onClick={openMailClient}
       aria-label="Send Email"
     >
-      <BiLogoGmail className='text-3xl text-red-700 hover:text-[#1d3557] hover:scale-125 duration-500' />
+      <BiLogoGmail className='text-3xl text-black hover:text-[#1d3557] hover:scale-125 duration-500' />
     </div>
     </>
   );

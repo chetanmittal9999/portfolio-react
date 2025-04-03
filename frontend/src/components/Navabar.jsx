@@ -52,11 +52,11 @@ const Navabar = () => {
         {/* mobile k liye navbar */}
         {menu && (
           <div>
-            <ul className="flex gap-3 flex-col md:hidden h-screen justify-center text-3xl font-semibold text-red-700 bg-white mt-2 container-none">
-              <a href='#' className="hover:scale-105 duration-200 cursor-pointer px-5 py-0 rounded-4xl">
+            <ul className="flex gap-3 flex-col md:hidden h-screen justify-center text-3xl  mt-2 container-none bg-black text-white">
+              <a href='#' onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-0 rounded-4xl ">
                 Home
               </a>
-              <a href="#about" onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
+              <a href="#about" onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl ">
                 About
               </a>
               <a href="#skills" onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
