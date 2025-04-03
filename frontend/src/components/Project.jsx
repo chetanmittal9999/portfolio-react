@@ -60,8 +60,8 @@ const Project = () => {
           ))}
         </div>
       </div>
-      <div id='skills' className='text-red-800 mt-10 border h-2 shadow-lg shadow-red-700'/>
-      <hr className='text-red-800 mt-10 border h-2 shadow-lg shadow-red-700'/>
+      <div id='skills' className=' mt-10   shadow-lg '/>
+      {/* <hr className='text-[#1d3557] mt-10 mb-10 border h-2 shadow-lg shadow-[#1d3557]'/> */}
     </>
   );
 }

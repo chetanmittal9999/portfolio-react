@@ -6,7 +6,7 @@ const Navabar = () => {
   const [menu, setMenu] = useState(false);
   return (
     <>
-      <div  className="max-w-screen-2xl mx-auto px-4 container text-white md:px-20 shadow-md h-16 z-20 fixed top-0 left-0 right-0 bg-red-700 ">
+      <div  className="max-w-screen-2xl mx-auto px-4 container text-white md:px-20 shadow-md h-16 z-20 fixed top-0 left-0 right-0 bg-[#1d3557]">
         <div className="flex justify-between items-center mt-2">
           <div className="flex gap-2 items-center">
             <img
@@ -52,22 +52,22 @@ const Navabar = () => {
         {/* mobile k liye navbar */}
         {menu && (
           <div>
-            <ul className="flex gap-3 flex-col md:hidden h-screen justify-center text-3xl font-semibold text-red-700 bg-white mt-2">
-              <li className="hover:scale-105 duration-200 cursor-pointer px-5 py-0 rounded-4xl">
+            <ul className="flex gap-3 flex-col md:hidden h-screen justify-center text-3xl font-semibold text-red-700 bg-white mt-2 container-none">
+              <a href='#' className="hover:scale-105 duration-200 cursor-pointer px-5 py-0 rounded-4xl">
                 Home
-              </li>
-              <li className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
+              </a>
+              <a href="#about" onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
                 About
-              </li>
-              <li className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
-                Technologies
-              </li>
-              <li className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
+              </a>
+              <a href="#skills" onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
+                Skills
+              </a>
+              <a href="#projects" onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
                 Projects
-              </li>
-              <li className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
+              </a>
+              <a href="#contact" onClick={()=>{setMenu(!menu)}} className="hover:scale-105 duration-200 cursor-pointer px-5 py-2 rounded-4xl">
                 Contact
-              </li>
+              </a>
             </ul>
           </div>
         )}

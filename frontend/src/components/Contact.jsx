@@ -94,10 +94,10 @@ const Contact = () => {
             src="/contact.png"
             alt="Contact Us"
           />
-          <form
+          <form 
             ref={form}
             onSubmit={handleSubmit}
-            className="flex flex-col gap-6 md:w-1/2 bg-white p-6 rounded-lg shadow-lg shadow-red-700 border border-red-700"
+            className="flex flex-col gap-6 md:w-1/2 bg-white p-6 rounded-lg shadow-lg  border-2 border-[#1d3557]"
           >
             <h2 className="text-4xl font-semibold text-center text-gray-800">
               <span className="text-red-700">Let’s</span> Connect!{" "}
@@ -109,7 +109,7 @@ const Contact = () => {
               value={formData.name}
               onChange={handleChange}
               placeholder="Enter Your Name"
-              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-[#1d3557]"
             />
             {errors.name && <p className="text-red-500">{errors.name}</p>}
             <input
@@ -118,7 +118,7 @@ const Contact = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="Enter Your Email"
-              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-[#1d3557]"
             />
             {errors.email && <p className="text-red-500">{errors.email}</p>}
             <input
@@ -127,7 +127,7 @@ const Contact = () => {
               value={formData.phone}
               onChange={handleChange}
               placeholder="Enter Mobile Number"
-              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-[#1d3557]"
             />
             {errors.phone && <p className="text-red-500">{errors.phone}</p>}
             <textarea
@@ -135,13 +135,13 @@ const Contact = () => {
               value={formData.message}
               onChange={handleChange}
               placeholder="Your Message"
-              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500"
+              className="border border-gray-300 px-4 py-2 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-[#1d3557]"
               rows="4"
             ></textarea>
             {errors.message && <p className="text-red-500">{errors.message}</p>}
             <button
               type="submit"
-              className="bg-red-700 text-white py-2 rounded-lg hover:bg-red-600 transition duration-300"
+              className="bg-[#1d3557] text-white py-2 rounded-lg hover:bg-[#1d3557] transition duration-300"
             >
               Send Message
             </button>

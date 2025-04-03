@@ -7,7 +7,7 @@ const Skills = () => {
         <h1 className="text-3xl md:text-5xl font-semibold  text-center">
         Techni<span className="text-red-700">cal</span> Skil<span className="text-red-700">ls</span> in <span className="text-red-700">Act</span>ion! 
         </h1>
-        <p className="mb-2 text-2xl mt-5 border-2 text-center text-red-700 py-2 px-4 rounded-lg shadow-lg shadow-red-200"> <span className='text-black'>Tech Talk :</span> Languages & Technologies That Make Me a Wizard! </p>
+        <p className="mb-2 text-2xl mt-5 border-2 text-center text-[#1d3557] py-2 px-4 rounded-lg shadow-lg shadow-red-[#1d3557]"> <span className='text-red-700'>Tech Talk :</span> Languages & Technologies That Make Me a Wizard! </p>
         <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6  md:px-0 mt-8'>
             <div className='border-2 p-2 rounded-lg hover:scale-105 duration-500 flex  justify-center hover:shadow-lg hover:shadow-black'>
                 <img className='w-48 my-2' src="/html-icon.png" alt="" />
@@ -58,7 +58,7 @@ const Skills = () => {
                 <img className='w-72 my-2 ' src="/dsa.png" alt="" />
             </div>
         </div>
-        <p className=" text-2xl text-center text-red-700 mt-10 border-2  py-2 px-4 rounded-lg shadow-lg shadow-red-200"> <span className='text-black'>Toolkit :</span> The Gadgets That Make Me a Code Ninja!</p>
+        <p className=" text-2xl text-center text-[#1d3557] mt-10 border-2  py-2 px-4 rounded-lg shadow-lg shadow-red-[#1d3557]"> <span className='text-red-700'>Toolkit :</span> The Gadgets That Make Me a Code Ninja!</p>
         <div className='grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6  md:px-0 mt-8'>
             <div className='border-2 p-2 rounded-lg hover:scale-105 duration-500 flex  justify-center hover:shadow-lg hover:shadow-black '>
                 <img className='w-48 my-2 ' src="/vs.png" alt="" />
@@ -80,8 +80,8 @@ const Skills = () => {
             </div>
         </div>
     </div>
-    <div id="contact"  className='text-blue-800 mt-10 border h-2 shadow-lg shadow-blue-700'/>
-    <hr className='text-blue-800 mt-10 border h-2 shadow-lg shadow-blue-700'/>
+    {/* <div id="contact"  className='text-blue-800 mt-10 border h-2 shadow-lg shadow-blue-700'/> */}
+    {/* <hr className='text-[#1d3557] mt-10 mb-10 border h-2 shadow-lg shadow-[#1d3557]'/> */}
     </>
   )
 }

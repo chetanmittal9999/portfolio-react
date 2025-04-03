@@ -21,8 +21,8 @@ const About = () => {
           <h1 className="text-xl text-green-700 mb-1 font-semibold ">
             Professional Experience
           </h1>
-          <div className="bg-white shadow-md rounded-lg  mb-4 border p-3 hover:scale-105 duration-500 hover:shadow-lg hover:shadow-green-900 ">
-            <h3 className="font-semibold text-red-700">
+          <div className="bg-white shadow-md rounded-lg  mb-4 border p-3 hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557] ">
+            <h3 className="font-semibold text-[#03045e]">
               Full Stack Web Developer Intern at Phenom IT{" "}
             </h3>
             <p className="text-gray-500">
@@ -44,9 +44,9 @@ const About = () => {
           <h1 className="text-xl text-green-700 mb-1 font-semibold mt-3">
             Education
           </h1>
-          <div className="flex justify-between flex-col md:flex-row gap-4 md:gap-0 border p-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-green-900">
+          <div className="flex justify-between flex-col md:flex-row gap-4 md:gap-0 border p-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557]">
             <div>
-              <h3 className="text-red-700">
+              <h3 className="text-[#03045e] font-semibold">
                 Dayanand College, Hisar ( Affiliated GJU )
               </h3>
               <p>Bachelor of Computer Applications (CS), </p>
@@ -54,7 +54,7 @@ const About = () => {
               <p>Grade : 7.6</p>
             </div>
             <div>
-              <h3 className="text-red-700">
+              <h3 className="text-[#03045e] font-semibold">
                 GSSS Bhattu Kalan, Fatehabad, Haryana
               </h3>
               <p>Class 12th</p>
@@ -68,7 +68,7 @@ const About = () => {
           <h2 className="text-xl text-green-700 mb-1 font-semibold mt-3">
             Skills & Expertise
           </h2>
-          <p className="border p-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-green-900">
+          <p className="border p-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557]">
             I specialize in web development with expertise in{" "}
             <span className="text-red-700">JavaScript</span> ,{" "}
             <span className="text-red-700">React </span>,{" "}
@@ -88,11 +88,11 @@ const About = () => {
         {/* Achievements / Certifications */}
         <div>
           <h1 className="text-xl text-green-700 mb-1 mt-3 font-semibold">
-            Achievements / Certifications
+            Achievements and Certifications
           </h1>
-          <div className="border p-3 mt-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-green-900">
+          <div className="border p-3 mt-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557]">
             <div>
-              <h3 className=" text-red-700 mb-1 font-semibold">
+              <h3 className=" text-[#03045e] mb-1 font-semibold">
                 Achievements :
               </h3>
               <p>
@@ -101,7 +101,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <h3 className=" text-red-700 mt-3 font-semibold">
+              <h3 className=" text-[#03045e] mt-3 font-semibold">
                 Certifications :
               </h3>
               <div>
@@ -157,7 +157,8 @@ const About = () => {
         </div>
       </div>
       <div className="mt-3 mb-3" id="projects"></div>
-      <hr className='text-green-600 mt-10 mb-5 border-2 h-2 shadow-lg shadow-green-700'/>
+      {/* <hr className='text-green-600 mt-10 mb-5 border-2 h-2 shadow-lg shadow-green-700'/> */}
+      {/* <hr className='text-[#1d3557] mt-16 mb-10 border h-2 shadow-lg shadow-[#1d3557]'/> */}
     </>
   );
 };

@@ -105,9 +105,9 @@ const Hero = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-5 border-2 p-2 text-white text-center rounded-full border-red-700 shadow-lg hover:scale-105 duration-500">
+            <div className="mt-5 border-2 p-2 text-white text-center rounded-full border-[#1d3557] shadow-lg hover:scale-105 duration-500">
               <a href="/resume.pdf" download>
-                <button className="font-semibold text-red-700 text-xl cursor-pointer">
+                <button className="font-semibold text-[#1d3557] text-xl cursor-pointer">
                   Download My Resume <i className="fa-solid fa-download"></i>
                 </button>
               </a>
@@ -115,21 +115,18 @@ const Hero = () => {
           </div>
           <div className="md:w-1/2  md:ml-12 lg:ml-40 mt-8 px-16 md:px-0 order-1 ">
             <img
-              className="md:w-[400px] md:h-[400px] rounded-full border-red-700 border shadow-lg shadow-red-900 hover:scale-85 duration-500"
+              className="md:w-[400px] md:h-[400px] rounded-full border-[#1d3557] border  hover:scale-85 duration-500"
               src="/cm.jpg"
               alt=""
             />
-            <div className="h-48 w-48 md:h-96 md:w-96 rounded-full border border-red-700 mt-[-190px] md:mt-[-390px] shadow-lg shadow-red-700 hover:scale-125 duration-500"></div>
-            <div className="h-10 w-10 md:h-10 md:w-96 rounded-full border-red-750 bg-red-700 mt-[-70px] md:mt-[-390px] shadow-lg shadow-red-800 "></div>
+            <div className="h-48 w-48 md:h-96 md:w-96 rounded-full border border-[#1d3557] mt-[-190px] md:mt-[-390px] shadow-lg shadow-[#1d3557]  hover:scale-125 duration-500"></div>
+            <div className="h-10 w-10 md:h-10 md:w-96 rounded-full  mt-[-70px] md:mt-[-390px] shadow-lg shadow-[#1d3557] "></div>
           </div> 
         </div>
       </div>
-      <hr className="text-red-800 h-2 shadow-lg shadow-red-700" />
-      <hr className="text-red-800 h-2 shadow-lg shadow-red-700" />
-      <hr className="text-red-800 h-2 shadow-lg shadow-red-700" />
-      <hr className="text-red-800 h-2 shadow-lg shadow-red-700" />
-      <hr className="text-red-800 h-2 shadow-lg shadow-red-700" />
-      <hr className="text-red-800 h-2 shadow-lg shadow-red-700" />
+      <hr className="text-[#457b9d] h-2 shadow-lg shadow-[#457b9d]" />
+      <hr className="text-[#457b9d] h-2 shadow-lg shadow-[#457b9d]" />
+      <hr className="text-[#457b9d] h-2 shadow-lg shadow-[#457b9d]" />
       <div id="about"></div>
     </>
   );
