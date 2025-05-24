@@ -23,7 +23,7 @@ const Footer = () => {
           © 2025 Chetan Mittal. All rights reserved | Designed by Chetan Mittal 
         </p>
       </div>
-
+ 
       {/* Scroll to Top Button */}
       <div
         className="fixed right-2 bottom-16 h-12 w-12 rounded-full bg-black flex items-center justify-center cursor-pointer shadow-lg hover:bg-red-600 transition hover:scale-105 duration-500"
