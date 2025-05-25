@@ -78,12 +78,12 @@ const Project = () => {
                 >
                   See Project Live
                 </a>
-                <a
+                {/* <a
                   href={project.about}
                   className="text-green-700 hover:underline underline"
                 >
                   About Project
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
