@@ -3,17 +3,19 @@ import React from "react";
 const About = () => {
   return (
     <>
-    <div></div>
-      <div  className="max-w-screen-2xl mx-auto px-4 container md:px-20 mt-10 lg:mt-20 text-justify mb-5">
-        <h1  className="text-2xl md:text-5xl text-center font-semibold mb-3">
-          All<span className="text-red-700"> About</span> Me And My <span className="text-red-700"> Experience</span>
+      <div></div>
+      <div className="max-w-screen-2xl mx-auto px-4 container md:px-20 mt-10 lg:mt-20 text-justify mb-5">
+        <h1 className="text-2xl md:text-5xl text-center font-semibold mb-3">
+          All<span className="text-red-700"> About</span> Me And My{" "}
+          <span className="text-red-700"> Experience</span>
         </h1>
         {/* about content  */}
         <p className="">
-          As a BCA student and Web Developer, I am committed to building
-          innovative web solutions that prioritize user experience. My passion
-          for technology drives me to explore new challenges and contribute to
-          meaningful projects in the digital landscape.
+          As a BCA graduate and Web Developer, I am passionate about building
+          innovative web and mobile solutions that prioritize user experience.
+          My enthusiasm for technology drives me to continuously learn, explore
+          new challenges, and contribute to meaningful projects in the digital
+          landscape.
         </p>
         <br />
         {/* professional experience  */}
@@ -22,13 +24,25 @@ const About = () => {
             Professional Experience
           </h1>
           <div className="bg-white shadow-md rounded-lg  mb-4 border p-3 hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557] ">
-            <h3 className="font-semibold text-[#03045e]">
-              Full Stack Web Developer Intern at Phenom IT{" "}
+            <h3 className="font-semibold text-[#373995]">
+              App Developer Intern , On-site{" "}
+            </h3>
+            <p className="text-gray-500">Duration : June 2025 - Present</p>
+            <p className="text-gray-500">Magnifying India Mohali</p>
+            <p className="mt-2">
+              As an App Development Intern, I am currently working on mobile
+              applications using React Native, focusing on UI responsiveness,
+              component reusability, and clean architecture. I collaborate with
+              the team to build efficient and scalable app solutions.
+            </p>
+            <hr className="mt-2 mb-2 text-gray-300" />
+            <h3 className="font-semibold text-[#373995]">
+              Full Stack Web Developer Intern , On-site{" "}
             </h3>
             <p className="text-gray-500">
               Duration : July 2024 - October 2024 (3 months)
             </p>
-            <p className="text-gray-500">Hisar, On-site</p>
+            <p className="text-gray-500">Phenom IT Hisar</p>
             <p className="mt-2">
               As a Full Stack Web Developer Intern at Phenom IT, I gained
               hands-on experience in developing dynamic applications using
@@ -46,7 +60,7 @@ const About = () => {
           </h1>
           <div className="flex justify-between flex-col md:flex-row gap-4 md:gap-0 border p-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557]">
             <div>
-              <h3 className="text-[#03045e] font-semibold">
+              <h3 className="text-[#373995] font-semibold">
                 Dayanand College, Hisar ( Affiliated GJU )
               </h3>
               <p>Bachelor of Computer Applications (CS), </p>
@@ -54,7 +68,7 @@ const About = () => {
               <p>Grade : 7.6</p>
             </div>
             <div>
-              <h3 className="text-[#03045e] font-semibold">
+              <h3 className="text-[#373995] font-semibold">
                 GSSS Bhattu Kalan, Fatehabad, Haryana
               </h3>
               <p>Class 12th</p>
@@ -68,10 +82,11 @@ const About = () => {
           <h2 className="text-xl text-green-700 mb-1 font-semibold mt-3">
             Skills & Expertise
           </h2>
-          <p className="border p-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557]">
-            I specialize in web development with expertise in{" "}
+          <p className="border p-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#6c84a5]">
+            I specialize in Web and App development with expertise in{" "}
             <span className="text-red-700">JavaScript</span> ,{" "}
             <span className="text-red-700">React </span>,{" "}
+            <span className="text-red-700">React Native </span>,{" "}
             <span className="text-red-700">Tailwind CSS</span> ,{" "}
             <span className="text-red-700">HTML</span> and
             <span className="text-red-700"> CSS</span> for front-end design,
@@ -92,7 +107,7 @@ const About = () => {
           </h1>
           <div className="border p-3 mt-3 rounded-lg hover:scale-105 duration-500 hover:shadow-lg hover:shadow-[#1d3557]">
             <div>
-              <h3 className=" text-[#03045e] mb-1 font-semibold">
+              <h3 className=" text-[#373995] mb-1 font-semibold">
                 Achievements :
               </h3>
               <p>
@@ -101,7 +116,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <h3 className=" text-[#03045e] mt-3 font-semibold">
+              <h3 className=" text-[#373995] mt-3 font-semibold">
                 Certifications :
               </h3>
               <div>

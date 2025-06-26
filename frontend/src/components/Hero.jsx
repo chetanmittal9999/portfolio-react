@@ -106,7 +106,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="mt-5 border-2 p-2 text-white text-center rounded-full border-black shadow-lg hover:scale-105 duration-500">
-              <a href="/Resume.pdf" download>
+              <a href="/Cm_Resume.pdf" download>
                 <button className="font-semibold text-black text-xl cursor-pointer">
                   Download My Resume <i className="fa-solid fa-download"></i>
                 </button>
@@ -121,7 +121,7 @@ const Hero = () => {
             />
             <div className="h-48 w-48 md:h-96 md:w-96 rounded-full border border-black mt-[-190px] md:mt-[-390px] shadow-lg shadow-black  hover:scale-125 duration-500"></div>
             <div className="h-10 w-10 md:h-10 md:w-96 rounded-full  mt-[-70px] md:mt-[-390px] shadow-lg shadow-black "></div>
-          </div> 
+          </div>
         </div>
       </div>
       <div className="text-[#457b9d] h-2 shadow-lg shadow-black" />
