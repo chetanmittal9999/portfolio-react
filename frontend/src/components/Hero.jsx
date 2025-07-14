@@ -106,7 +106,7 @@ const Hero = () => {
               </div>
             </div>
             <div className="mt-5 border-2 p-2 text-white text-center rounded-full border-black shadow-lg hover:scale-105 duration-500">
-              <a href="/Cm_Resume.pdf" download>
+              <a href="/cmresume.pdf" download>
                 <button className="font-semibold text-black text-xl cursor-pointer">
                   Download My Resume <i className="fa-solid fa-download"></i>
                 </button>
